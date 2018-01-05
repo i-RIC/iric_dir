@@ -19,9 +19,7 @@ void output_attr(const std::string& cgns_fname, const std::string& attname, std:
 int main(int argc, char* argv[])
 {
     std::string cgnsname = argv[1];
-	int baseId = atoi(argv[2]);
-	int zoneId = atoi(argv[3]);
-	std::string attname = argv[4];
+	std::string attname = argv[2];
 	std::string demname = "dem.txt";
 	std::string aacname = "aac.txt";
 	std::string dirname = "dir.txt";
